@@ -13,7 +13,7 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(collation = "todos")
+@Document(collection = "todos")
 public class TodoDTO {
 
     @Id
